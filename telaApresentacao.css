@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+h1, h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+/* "." indica uma clase */
+.gallery {
+    text-align: center; /* Alinha a lista ao centro */
+    padding: 20px;
+}
+.gallery-item {
+    display: inline-block; /* Exibe os itens da galeria em linha */
+    margin: 10px;
+    list-style: none;
+}
+.gallery-item img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+.gallery-item img:hover {
+    transform: scale(1.1);
+}
+/* "id"   id = "nome"   */
+#nome {
+    font-size: 40px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+#descricao {
+    text-align: center;
+    color: blue;
+    width: 400px;
+    margin: 0 auto;
+}
+
+.buttons-container {
+    text-align: center;
+    margin-top: 20px; /* Ajuste conforme necessário */
+}
+
+.buttons-container button {
+    margin: 0 10px; /* Espaçamento entre os botões */
+}

@@ -1,0 +1,19 @@
+.foto-pequena {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%; /* Isso tornará a imagem arredondada */
+}
+
+
+/* Estilizando linhas ímpares */
+/* body > *:nth-child(odd) {
+    background-color: white;
+} */
+
+/* Estilizando linhas pares */
+/* body > *:nth-child(even) {
+    background-color: gray;
+} */
+
+
+

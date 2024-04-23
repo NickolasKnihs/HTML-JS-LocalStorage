@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Apresentação</title>
+    <link rel="stylesheet" href="telaApresentacao.css">
+</head>
+<body>
+    <h1 style="color: blue; font-size: 60px;">CADASTRO.app</h1>
+    <!-- <h3 style="text-decoration: underline;"> Clique na imagem e conheça: </h3> -->
+    <ul class="gallery">
+        <li class="gallery-item">
+            <a> 
+                <img src="https://decisaosistemas.com.br/wp-content/uploads/2020/10/153.jpg" 
+                alt="Chimpanze"/>               
+            </a>
+            <!-- <aside id="nome">titulo imagem</aside>  -->
+        </li>
+    </ul>
+    <p id="descricao">Cadastre seu usuário ou faça uma consulta clicando nos botões abaixo:</p>
+    <div class="buttons-container">
+        <button onclick="window.location.href = './telaCadastro.html';" target="_blank">Cadastrar</button>
+        <button onclick="window.location.href = './telaConsulta.html';" target="_blank">Consultar</button>
+    </div>
+    <script src="./telaApresentacao.js"></script>
+
+    <footer>
+        <p>© 2024 Cadastro.app SA. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="/sobre">Sobre nós</a></li>
+                <li><a href="/contato">Contato</a></li>
+                <li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+            </ul>
+        </nav>
+        <address>
+            Contato: <a href="cadastrp.app@gmail.com">cadastro.app@gmail.com</a>
+            <br>
+            Link GitHub: <a href="https://github.com/" target="_blank">GitHub Cadastro.app</a>
+        </address>
+    </footer>
+</body>
+</html>

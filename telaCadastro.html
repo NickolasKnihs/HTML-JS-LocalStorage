@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela Cadastro</title>
+</head>
+<body>
+    <h1>TELA CADASTRO</h1>
+
+    <form onsubmit="return salvar()"> 
+        <span>Nome:</span>
+        <br> 
+        <input id="nome" required type="text" minlength="3" maxlength="150" /> 
+        <br>
+        <span>Idade:</span>
+        <br>
+        <input id="idade" required type="number" min="0" max="200" />
+        <br>
+        <span>CPF:</span>
+        <br>
+        <input id="cpf" required type="text" minlength="1" maxlength="11" />
+        <br>
+        <span>CNPJ:</span>
+        <br>
+        <input id="cnpj" required type="text" minlength="1" maxlength="14" />
+        <br>
+        <span>E-mail:</span>
+        <br>
+        <input id="email" required type="email" />
+        <br>
+        <span>Genero:</span>
+        <br>
+        <input id="genero" required type="text" />
+        <br>
+        <span>Foto:</span>
+        <br>
+        <input id="foto" required type="text" />
+        <br>
+        <button>Salvar</button>
+        </form>
+        <!-- <div id="tabelaCadastro"></div> -->
+
+    <script src="./telaCadastro.js"></script>
+
+    <div class="buttons-container">
+        <button onclick="window.location.href = './telaConsulta.html';" target="_blank">Consultar</button>
+        <button onclick="window.location.href = './telaApresentacao.html';" target="_blank">Tela Inicial</button>
+    </div>
+
+    <footer>
+        <p>© 2024 Cadastro.app SA. Todos os direitos reservados.</p>
+        <nav>
+            <ul>
+                <li><a href="/sobre">Sobre nós</a></li>
+                <li><a href="/contato">Contato</a></li>
+                <li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+            </ul>
+        </nav>
+        <address>
+            Contato: <a href="cadastrp.app@gmail.com">cadastro.app@gmail.com</a>
+            <br>
+            Link GitHub: <a href="https://github.com/" target="_blank">GitHub Cadastro.app</a>
+        </address>
+    </footer>
+
+</body>
+</html>
