@@ -4,16 +4,30 @@
     border-radius: 50%; /* Isso tornará a imagem arredondada */
 }
 
-
-/* Estilizando linhas ímpares */
-/* body > *:nth-child(odd) {
+/* Estilo para linhas ímpares */
+.linha-impar {
     background-color: white;
-} */
+}
 
-/* Estilizando linhas pares */
-/* body > *:nth-child(even) {
-    background-color: gray;
-} */
+/* Estilo para linhas pares */
+.linha-par {
+    background-color: lightgrey;
+}
 
+/* Estilo para borda da tabela */
+.tabela-container {
+    border: 1px dashed black;
+    overflow-x: auto; /* Adicione rolagem horizontal se necessário */
+}
 
+.tabela-cadastro {
+    width: 100%; /* Ocupa toda a largura do contêiner */
+    border-collapse: collapse; /* Certifica-se de que as bordas sejam unidas */
+}
+
+/* Estilo para borda das células */
+.tabela-cadastro td, .tabela-cadastro th {
+    border: 1px dashed black;
+    padding: 8px; /* Adicione um espaçamento interno às células */
+}
 
